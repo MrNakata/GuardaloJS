@@ -1,0 +1,66 @@
+
+/* MAIN */
+.new-note__header,
+.new-note,
+.main > div {
+    display: flex;
+}
+.new-note__header,
+.new-note__body,
+.new-note__body > div,
+.new-note__footer,
+.new-note__footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-note__footer,
+.new-note__header,
+.new-note__body {
+    width: 100%;
+}
+.new-note.active .new-note__body-icons,
+.new-note:not(.active) .new-note__header,
+.new-note:not(.active) .new-note__footer {
+    display: none;
+}
+.new-note.active {
+    height: 144px;
+}
+.main {
+    width: 100%;
+    height: 100%;
+}
+.main__header {
+    justify-content: center;
+    margin: 30px;
+}
+.new-note {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid var(--secondary);
+    border-radius: 5px;
+    height: 42px;
+    min-width: 400px;
+    max-width: 600px;
+    cursor: text;
+    padding: 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px, rgba(0, 0, 0, 0.2) 0px 2px 4px -1px;
+}
+.new-note__input:focus-visible {
+    outline: none;
+}
+.new-note__input {
+    width: 100%;
+    height: 24px;
+    border: none;
+    resize: none;
+}
+.main__body,
+.main__footer {
+    width: 100%;
+}
+/* END - MAIN */

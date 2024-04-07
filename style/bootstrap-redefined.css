@@ -1,0 +1,11 @@
+
+/* BOOTSTRAP REDEFINED */
+.placeholder {
+    background-color: transparent;
+    color: var(--light);
+    cursor: text;
+}
+.btn:first-child:active {
+    border-color: transparent;
+}
+/* END - BOOTSTRAP REDEFINED */
