@@ -1,5 +1,6 @@
 import { CONFIG as config, cl } from './config.js';
 import { countNewLines } from './utils.js';
+import { Note } from './note.js';
 
 /**
  * Ecoute focus sur la div nouvelle note
@@ -18,6 +19,10 @@ document.querySelector("#new_note").addEventListener("focus", () => {
  */
 document.querySelector(".new-note__btn-close").addEventListener("click", e => {
     e.preventDefault();
+    const new_note_text = document.querySelector("[name=new_note]");
+    if (new_note_text.value.trim() != '') {
+        addNote();
+    }
     document.querySelector(".new-note").classList.remove("active");
 })
 
@@ -53,4 +58,20 @@ function _handleNewLine (e) {
             }
         }
     }
+}
+
+function addNote () {
+    const note = new Note(
+        'bgc-green',
+        [],
+        false,
+        true,
+        [],
+        '',
+        [],
+        '',
+        'Nouveau titre'
+    );
+    document.querySelector(".notes-others .notes-container__body").innerHTML += note.render();
+
 }

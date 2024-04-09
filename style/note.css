@@ -6,17 +6,26 @@
 .notes > div,
 .notes-container__body,
 .note-item__list,
-.note-checklist {
+.note-checklist,
+.main__body {
     display: flex;
+}
+.main__body,
+.notes {
+    flex-direction: column;
 }
 .notes-container__body {
     align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
 }
 .notes {
     border-radius: 5px;
-    flex-direction: column;
     margin: 5px;
-    width: 240px;
+    /* width: 240px; */
+    background-color: var(--dark);
+    flex: 0 0 0 auto;
+    width: 16.66667%;
 }
 .notes__header,
 .note-item {

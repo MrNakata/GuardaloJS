@@ -1,18 +1,18 @@
 .bgc-green {
-    background-color: var(--green);
+    background-color: var(--green) !important;
 }
 .bgc-red {
-    background-color: var(--red);
+    background-color: var(--red) !important;
 }
 .bgc-yellow {
-    background-color: var(--yellow);
+    background-color: var(--yellow) !important;
 }
 .bgc-dark {
-    background-color: var(--dark);
+    background-color: var(--dark) !important;
 }
 .bgc-orange {
-    background-color: var(--orange);
+    background-color: var(--orange) !important;
 }
 .bgc-pink {
-    background-color: var(--pink);
+    background-color: var(--pink) !important;
 }
