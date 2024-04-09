@@ -1,5 +1,22 @@
 /* ICONS */
-i[class^=fa-] {
+.icons {
+    font-size: 1.1rem;
     margin: 0 10px;
+    opacity: .7;
+}
+.btn .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+.note-item__checkbox .icons {
+    margin-left: 0;
+}
+.notes_footer .icons {
+    height: 30px;
+    width: 30px;
+    margin-right: 0;
+    margin-left: 0;
 }
 /* END - ICONS */

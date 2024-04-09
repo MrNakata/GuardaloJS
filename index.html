@@ -27,22 +27,22 @@
                         <input type="text" class="header-input__input form-control placeholder" name="q" aria-label="Recherche" placeholder="Recherche">
                     </div>
                     <button type="button" class="btn btn-rounded" aria-label="Effacer la recherche" style="visibility: hidden;">
-                        <i class="fa-solid fa-xmark"></i>
+                        <i class="icons fa-solid fa-xmark"></i>
                     </button>
                     <button type="button" class="btn btn-rounded" aria-label="Recherche">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="icons fa-solid fa-magnifying-glass"></i>
                     </button>
                 </form>
             </div>
             <div class="header-icons">
                 <button type="button" class="btn btn-rounded">
-                    <i class="fa-solid fa-gear"></i>
+                    <i class="icons fa-solid fa-gear"></i>
                 </button>
             </div>
         </div>
         <div class="header__footer">
             <button type="button" class="btn btn-rounded">
-                <i class="fa-solid fa-user"></i>
+                <i class="icons fa-solid fa-user"></i>
             </button>
         </div>
     </header>
@@ -51,31 +51,31 @@
             <ul class="nav flex-column nav-main">
                 <li class="nav-item">
                     <a class="nav-link active" href="#">
-                        <i class="fa-regular fa-lightbulb"></i>
+                        <i class="icons fa-regular fa-lightbulb"></i>
                         <span class="nav-link-text">Notes</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="fa-regular fa-bell"></i>
+                        <i class="icons fa-regular fa-bell"></i>
                         <span class="nav-link-text">Rappels</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="fa-regular fa-pen-to-square"></i>
+                        <i class="icons fa-regular fa-pen-to-square"></i>
                         <span class="nav-link-text">Modifier les libellés</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="fa-regular fa-folder"></i>
+                        <i class="icons fa-regular fa-folder"></i>
                         <span class="nav-link-text">Archive</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="fa-regular fa-trash-can"></i>
+                        <i class="icons fa-regular fa-trash-can"></i>
                         <span class="nav-link-text">Corbeille</span>
                     </a>
                 </li>
@@ -92,39 +92,39 @@
                     <div class="new-note__header">
                         <div class="new-note-title">Titre</div>
                         <button class="btn btn-rounded">
-                            <i class="fa-solid fa-thumbtack"></i>
+                            <i class="icons fa-solid fa-thumbtack"></i>
                         </button>
                     </div>
                     <div class="new-note__body">
                         <textarea class="new-note__input placeholder" placeholder="Créer une note..." name="new_note" id="new_note"></textarea>
                         <div class="new-note__body-icons">
                             <button type="button" class="btn btn-rounded">
-                                <i class="fa-regular fa-square-check"></i>
+                                <i class="icons fa-regular fa-square-check"></i>
                             </button>
                             <button type="button" class="btn btn-rounded">
-                                <i class="fa-regular fa-image"></i>
+                                <i class="icons fa-regular fa-image"></i>
                             </button>
                         </div>
                     </div>
                     <div class="new-note__footer">
                         <div>
                             <button type="button" class="btn btn-rounded">
-                                <i class="fa-regular fa-bell"></i>
+                                <i class="icons fa-regular fa-bell"></i>
                             </button>
                             <button type="button" class="btn btn-rounded">
-                                <i class="fa-solid fa-user-plus"></i>
+                                <i class="icons fa-solid fa-user-plus"></i>
                             </button>
                             <button type="button" class="btn btn-rounded">
-                                <i class="fa-solid fa-palette"></i>
+                                <i class="icons fa-solid fa-palette"></i>
                             </button>
                             <button type="button" class="btn btn-rounded">
-                                <i class="fa-regular fa-image"></i>
+                                <i class="icons fa-regular fa-image"></i>
                             </button>
                             <button type="button" class="btn btn-rounded">
-                                <i class="fa-regular fa-folder"></i>
+                                <i class="icons fa-regular fa-folder"></i>
                             </button>
                             <button type="button" class="btn btn-rounded">
-                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                <i class="icons fa-solid fa-ellipsis-vertical"></i>
                             </button>
                         </div>
                         <div>
@@ -133,7 +133,216 @@
                     </div>
                 </div>
             </div>
-            <div class="main__body"></div>
+            <div class="main__body">
+                <div class="notes-container">
+                    <div class="notes-container__header">
+                        <div class="notes-container__title text-uppercase">
+                            Notes épinglées
+                        </div>
+                    </div>
+                    <div class="notes-container__body">
+                        <div class="notes bgc-green">
+                            <div class="notes__header">
+                                <div class="notes__title">
+                                    Facilis blanditiis
+                                </div>
+                                <div class="notes_icons">
+                                    <i class="icons fa-solid fa-thumbtack"></i>
+                                </div>
+                            </div>
+                            <div class="notes_body">
+                                <div class="note-item">
+                                    <div class="note-item__list">
+                                        <div class="note-checklist">
+                                            <div class="note-item__checkbox">
+                                                <i class="icons fa-regular fa-square"></i>
+                                            </div>
+                                            <div class="note-item__label">
+                                                Amet consectetur adipisicing elit
+                                            </div>
+                                        </div>
+                                        <div class="note-checklist">
+                                            <div class="note-item__checkbox">
+                                                <i class="icons fa-regular fa-square"></i>
+                                            </div>
+                                            <div class="note-item__label">
+                                                Lorem ipsum, dolor sit nulla modi distinctio? Impedit deleniti libero dignissimos.
+                                            </div>
+                                        </div>
+                                        <div class="note-checklist">
+                                            <div class="note-item__checkbox">
+                                                <i class="icons fa-regular fa-square-check"></i>
+                                            </div>
+                                            <div class="note-item__label">
+                                                <del>
+                                                    Similique in est quae nemo dolorem!
+                                                </del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="note-item__tag"></div>
+                                </div>
+                            </div>
+                            <div class="notes_footer">
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-regular fa-bell"></i>
+                                </button>
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-solid fa-user-plus"></i>
+                                </button>
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-solid fa-palette"></i>
+                                </button>
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-regular fa-image"></i>
+                                </button>
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-regular fa-folder"></i>
+                                </button>
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-solid fa-ellipsis-vertical"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="notes bgc-pink">
+                            <div class="notes__header">
+                                <div class="notes__title">
+                                    Adipisci fuga?
+                                </div>
+                                <div class="notes_icons">
+                                    <i class="icons fa-solid fa-thumbtack"></i>
+                                </div>
+                            </div>
+                            <div class="notes_body">
+                                <div class="note-item">
+                                    <div class="note-item__list">
+                                        <div class="note-checklist">
+                                            <div class="note-item__checkbox">
+                                                <i class="icons fa-regular fa-square"></i>
+                                            </div>
+                                            <div class="note-item__label">
+                                                Amet consectetur adipisicing elit
+                                            </div>
+                                        </div>
+                                        <div class="note-checklist">
+                                            <div class="note-item__checkbox">
+                                                <i class="icons fa-regular fa-square"></i>
+                                            </div>
+                                            <div class="note-item__label">
+                                                Lorem ipsum, dolor sit nulla modi distinctio? Impedit deleniti libero dignissimos.
+                                            </div>
+                                        </div>
+                                        <div class="note-checklist">
+                                            <div class="note-item__checkbox">
+                                                <i class="icons fa-regular fa-square-check"></i>
+                                            </div>
+                                            <div class="note-item__label">
+                                                <del>
+                                                    Nulla modi distinctio? Impedit deleniti libero dignissimos.
+                                                </del>
+                                            </div>
+                                        </div>
+                                        <div class="note-checklist">
+                                            <div class="note-item__checkbox">
+                                                <i class="icons fa-regular fa-square-check"></i>
+                                            </div>
+                                            <div class="note-item__label">
+                                                <del>
+                                                    Similique in est quae nemo dolorem!
+                                                </del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="note-item__tag"></div>
+                                </div>
+                            </div>
+                            <div class="notes_footer">
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-regular fa-bell"></i>
+                                </button>
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-solid fa-user-plus"></i>
+                                </button>
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-solid fa-palette"></i>
+                                </button>
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-regular fa-image"></i>
+                                </button>
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-regular fa-folder"></i>
+                                </button>
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-solid fa-ellipsis-vertical"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="notes bgc-yellow">
+                            <div class="notes__header">
+                                <div class="notes__title">
+                                    Deleniti Libero
+                                </div>
+                                <div class="notes_icons">
+                                    <i class="icons fa-solid fa-thumbtack"></i>
+                                </div>
+                            </div>
+                            <div class="notes_body">
+                                <div class="note-item">
+                                    <div class="note-item__list">
+                                        <div class="note-checklist">
+                                            <div class="note-item__checkbox">
+                                                <i class="icons fa-regular fa-square"></i>
+                                            </div>
+                                            <div class="note-item__label">
+                                                Amet consectetur adipisicing elit
+                                            </div>
+                                        </div>
+                                        <div class="note-checklist">
+                                            <div class="note-item__checkbox">
+                                                <i class="icons fa-regular fa-square"></i>
+                                            </div>
+                                            <div class="note-item__label">
+                                                Lorem ipsum, dolor sit nulla modi distinctio? Impedit deleniti libero dignissimos.
+                                            </div>
+                                        </div>
+                                        <div class="note-checklist">
+                                            <div class="note-item__checkbox">
+                                                <i class="icons fa-regular fa-square-check"></i>
+                                            </div>
+                                            <div class="note-item__label">
+                                                <del>
+                                                    Similique in est quae nemo dolorem!
+                                                </del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="note-item__tag"></div>
+                                </div>
+                            </div>
+                            <div class="notes_footer">
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-regular fa-bell"></i>
+                                </button>
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-solid fa-user-plus"></i>
+                                </button>
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-solid fa-palette"></i>
+                                </button>
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-regular fa-image"></i>
+                                </button>
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-regular fa-folder"></i>
+                                </button>
+                                <button type="button" class="btn btn-rounded">
+                                    <i class="icons fa-solid fa-ellipsis-vertical"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="main__footer"></div>
         </div>
     </main>

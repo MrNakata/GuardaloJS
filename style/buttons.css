@@ -2,24 +2,20 @@
 .btn-rounded {
     border-radius: 50%;
 }
-.btn:has(i[class^=fa-]) {
+.btn:has(.icons) {
     width: 40px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.btn i[class^=fa-] {
-    font-size: 1.2rem;
-    color: var(--white);
-}
 .btn:first-child:active,
 .btn-outline-link:active,
 .btn-outline-link:hover,
 .nav-main .nav-link:hover:not(.active), 
-.btn:hover:has(i[class^=fa-]) {
+.btn:hover:has(.icons) {
     background-color: rgba(154,160,166,0.157);
-    opacity: .87;;
+    opacity: .87;
 }
 .nav-footer .nav-link{
     color: var(--secondary);

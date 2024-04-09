@@ -1,0 +1,51 @@
+.notes-container,
+.notes__header  {
+    width: 100%;
+}
+.notes,
+.notes > div,
+.notes-container__body,
+.note-item__list,
+.note-checklist {
+    display: flex;
+}
+.notes-container__body {
+    align-items: flex-start;
+}
+.notes {
+    border-radius: 5px;
+    flex-direction: column;
+    margin: 5px;
+    width: 240px;
+}
+.notes__header,
+.note-item {
+    padding: 10px 20px;
+}
+.notes-container__header {
+    margin: 18px;
+}
+.note-checklist {
+    flex-direction: row;
+}
+.note-item__label del {
+    color: rgb(130, 130, 130);
+}
+.notes__header {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.notes__title {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.note-item__list {
+    flex-direction: column;
+    gap: .7rem;
+}
+.notes_footer {
+    flex: 1 0 auto;
+    font-size: .9rem;
+}

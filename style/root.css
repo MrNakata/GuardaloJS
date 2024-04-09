@@ -1,0 +1,17 @@
+:root {
+    --primary  : var(--bs-primary);
+    --secondary: rgb(107, 107, 107);
+    --success  : var(--bs-success);
+    --warning  : var(--bs-warning);
+    --danger   : var(--bs-danger);
+    --light    : rgb(200, 195, 204);
+    --dark     : var(--bs-dark);
+
+    --white: #fff;
+    --dark-yellow: #342916;
+    --green: rgb(44, 88, 74);
+    --red: rgb(88, 44, 44);
+    --yellow: rgb(88, 84, 44);
+    --orange: rgb(88, 60, 44);
+    --pink: rgb(88, 44, 84);
+}
