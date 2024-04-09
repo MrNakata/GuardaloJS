@@ -6,7 +6,7 @@ import { countNewLines } from './utils.js';
  * Pour agrandir la div
  */
 document.querySelector("#new_note").addEventListener("focus", () => {
-    const $div = document.querySelector(".div-new-note");
+    const $div = document.querySelector(".new-note");
     const c = $div.classList;
     if (!c.contains("active")) {
         c.add("active");
@@ -16,9 +16,9 @@ document.querySelector("#new_note").addEventListener("focus", () => {
 /**
  * Ecoute clic sur btn fermer div nouvelle note
  */
-document.querySelector(".btn-close-new-note").addEventListener("click", e => {
+document.querySelector(".new-note__btn-close").addEventListener("click", e => {
     e.preventDefault();
-    document.querySelector(".div-new-note").classList.remove("active");
+    document.querySelector(".new-note").classList.remove("active");
 })
 
 /**
@@ -28,7 +28,7 @@ document.querySelector("#new_note").addEventListener("keyup", _handleNewLine);
 
 function _handleNewLine (e) {
     const $this = e.target;
-    const $div = document.querySelector(".div-new-note");
+    const $div = document.querySelector(".new-note");
     let height = $this.clientHeight;
 
     if (e.key == 'Enter') {

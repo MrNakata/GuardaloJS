@@ -1,0 +1,38 @@
+/* FORM SEARCH */
+.header-form {
+    width: 100%;
+    margin: 0 10px;
+}
+.header-form__form {
+    display: flex;
+    align-items: center;
+    max-width: 720px;
+    background-color: var(--secondary);
+    border-radius: 5px;
+    position: relative;
+    padding: 6px;
+}
+
+.header-input__input {
+    background-color: var(--secondary);
+    border: none;
+    width: 100%;
+}
+.header-input__input::placeholder {
+    color: var(--light);
+}
+.header-input__input:focus {
+    border: none;
+    box-shadow: none;
+}
+.header-form__form button {
+    position: absolute;
+}
+.header-form__form button:nth-child(2) {
+    right: 0;
+}
+.header-input {
+    margin: 0 40px;
+    width: 100%;
+}
+/* END - FORM SEARCH */

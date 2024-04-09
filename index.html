@@ -16,15 +16,15 @@
     <title>GuardaloJS</title>
 </head>
 <body>
-    <header>
-        <div>
+    <header class="header">
+        <div class="header__header">
             <h1>GuardaloJS</h1>
         </div>
-        <div>
-            <div class="form-wrap">
-                <form method="get" role="search">
-                    <div class="form-div-input">
-                        <input type="text" class="form-control placeholder" name="q" aria-label="Recherche" placeholder="Recherche">
+        <div class="header__body">
+            <div class="header-form">
+                <form class="header-form__form" method="get" role="search">
+                    <div class="header-input">
+                        <input type="text" class="header-input__input form-control placeholder" name="q" aria-label="Recherche" placeholder="Recherche">
                     </div>
                     <button type="button" class="btn btn-rounded" aria-label="Effacer la recherche" style="visibility: hidden;">
                         <i class="fa-solid fa-xmark"></i>
@@ -34,13 +34,13 @@
                     </button>
                 </form>
             </div>
-            <div>
+            <div class="header-icons">
                 <button type="button" class="btn btn-rounded">
                     <i class="fa-solid fa-gear"></i>
                 </button>
             </div>
         </div>
-        <div>
+        <div class="header__footer">
             <button type="button" class="btn btn-rounded">
                 <i class="fa-solid fa-user"></i>
             </button>
@@ -86,18 +86,18 @@
                 </li>
             </ul>
         </nav>
-        <div id="main">
-            <div class="div-new-note-wrap">
-                <div class="div-new-note">
-                    <div class="new-note-title-wrap">
+        <div class="main">
+            <div class="main__header">
+                <div class="new-note">
+                    <div class="new-note__header">
                         <div class="new-note-title">Titre</div>
                         <button class="btn btn-rounded">
                             <i class="fa-solid fa-thumbtack"></i>
                         </button>
                     </div>
-                    <div class="div-new-note-input">
-                        <textarea class="new-note-input placeholder" placeholder="Créer une note..." name="new_note" id="new_note"></textarea>
-                        <div class="div-new-note-input-icons">
+                    <div class="new-note__body">
+                        <textarea class="new-note__input placeholder" placeholder="Créer une note..." name="new_note" id="new_note"></textarea>
+                        <div class="new-note__body-icons">
                             <button type="button" class="btn btn-rounded">
                                 <i class="fa-regular fa-square-check"></i>
                             </button>
@@ -106,7 +106,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="div-new-note-icons">
+                    <div class="new-note__footer">
                         <div>
                             <button type="button" class="btn btn-rounded">
                                 <i class="fa-regular fa-bell"></i>
@@ -128,14 +128,13 @@
                             </button>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-outline-link btn-close-new-note">Fermer</a>
+                            <a href="#" class="btn btn-outline-link new-note__btn-close">Fermer</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="render-list">
-
-            </div>
+            <div class="main__body"></div>
+            <div class="main__footer"></div>
         </div>
     </main>
 </body>
