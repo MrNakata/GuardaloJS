@@ -28,7 +28,7 @@ export class Note {
         this.labels       = labels;
         this.reminder     = reminder;
         this.tags         = tags;
-        this.text         = text;
+        this.text         = text.replace(/\n/g, `<br>`);
         this.title        = title;
     }
 
@@ -92,7 +92,7 @@ export class Note {
     }
 
     _getText = () => {
-
+        return `<div class="note-item__text">${this.text}</div>`;
     }
 
     _getFooter = () => {

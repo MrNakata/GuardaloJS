@@ -65,11 +65,11 @@ function addNote () {
         'bgc-green',
         [],
         false,
-        true,
+        false,
         [],
         '',
         [],
-        '',
+        document.querySelector("#new_note").value,
         'Nouveau titre'
     );
     document.querySelector(".notes-others .notes-container__body").innerHTML += note.render();
